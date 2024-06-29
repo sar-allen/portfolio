@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Home</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="favicon.ico" type="___________">
 </head>
 <body>
     <header> 
@@ -20,7 +19,6 @@
     </header>
     <main>
     <h2>PORTFOLIO</h2>
-        <p>Resize the browser window to see the responsive effect.</p>
 
         <!-- Portfolio Gallery Grid -->
         <div class="row">
@@ -28,36 +26,244 @@
             <div class="content">
             <img src="images/allen.png" alt="Allen Typography" style="width:100%">
             <h3>"Allen" Type Poster"</h3>
-            <p>Lorem ipsum..</p>
+            <p>May 2023</p>
             </div>
         </div>
         <div class="column">
             <div class="content">
-            <img src="lights.jpg" alt="Lights" style="width:100%">
-            <h3>My Work</h3>
-            <p>Lorem ipsum..</p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="content">
-            <img src="nature.jpg" alt="Nature" style="width:100%">
-            <h3>My Work</h3>
-            <p>Lorem ipsum..</p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="content">
-            <img src="mountains.jpg" alt="Mountains" style="width:100%">
-            <h3>My Work</h3>
-            <p>Lorem ipsum..</p>
-            </div>
-        </div>
-        </div>
+                <h3>Burgundy Magazine</h3>
+            <p>For this magazine, I focused on the color "Burgundy," in the shade #640b20, and that which the color offers. Therefore, all of the magazine content is curated around this color, with articles on Burgundy's influence on cooking, fashion, people, science, and makeup.</p>
+            <p>The Process: Once I had chosen the color "Burgundy," I had to do some research on what the color represented, what elements it had, etc in order to recognize what I could do with the color for my articles, graphic components, and more. Following the preliminary research, I used ChatGPT (as approved by my Professor) to generate two feature articles, an Editor's letter, two department pages, and an icon page. Once I knew what my articles would be about, I could focus on designing the type and graphic elements.</p>
+            <p>Ultimately, Fonts used: Body Copy: Trade Gothic in Regular and Italic Headlines: Bodoni 72 in Bold or LTC Bodoni 175 Pro in Regular Subheadlines in Body Copy: Trade Gothic in Bold Pull-Out Quotes: Trade Gothic in Bold Italic Page Numbers: LTC Bodoni 175 Pro in Regular Thematic Elements: the use of bleeding images on almost all of the spreads, the burgundy color blocks and lines, the burgundy titles, etc.</p>
+            <p>April 2024</p>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
 
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                <div class="numbertext">1 / 10</div>
+                <img src="images/burgundy-magazine/front.png" alt="Front cover" style="width:100%">
+                <div class="text">Cover and Intro</div>
+                </div>
+                
+                <div class="mySlides fade">
+                <div class="numbertext">2 / 10</div>
+                <img src="images/burgundy-magazine/dept.png" alt="Fashion" style="width:100%">
+                <div class="text">Department Page: Fashion</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">3 / 10</div>
+                <img src="images/burgundy-magazine/recipe.png" alt="Recipes" style="width:100%">
+                <div class="text">Department Page: Recipes</div>
+                </div>
+                <div class="mySlides fade">
+                <div class="numbertext">4 / 10</div>
+                <img src="images/burgundy-magazine/f1-1.png" alt="Feature 1" style="width:100%">
+                <div class="text">Feature Article 1</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">5 / 10</div>
+                <img src="images/burgundy-magazine/f1-2.png" alt="Feature 1" style="width:100%">
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">6 / 10</div>
+                <img src="images/burgundy-magazine/f1-3.png" alt="Feature 1" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                <div class="numbertext">7 / 10</div>
+                <img src="images/burgundy-magazine/f2-1.png" alt="Feature 2" style="width:100%">
+                <div class="text">Feature Article 2</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">8 / 10</div>
+                <img src="images/burgundy-magazine/f2-2.png" alt="Feature 2" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">9 / 10</div>
+                <img src="images/burgundy-magazine/f2-3.png" alt="Feature 2" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">10 / 10</div>
+                <img src="images/burgundy-magazine/back.png" alt="Back cover" style="width:100%">
+                <div class="text">Department Page and Back cover</div>
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span> 
+                <span class="dot" onclick="currentSlide(6)"></span> 
+                <span class="dot" onclick="currentSlide(7)"></span> 
+                <span class="dot" onclick="currentSlide(8)"></span> 
+                <span class="dot" onclick="currentSlide(9)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span> 
+            </div>
+            </div>
+            <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1} 
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; 
+            }
+            for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block"; 
+            dots[slideIndex-1].className += " active";
+            }
+            </script>
+        </div>
+        <div class="column">
+            <div class="content">
+            <img src="images/leaky-faucets.png" alt="Poem" style="width:100%">
+            <h3>"Leaky Faucets and Me" Poem</h3>
+            <p>This was a work I designed that got published in BYU-I’s literary and art journal, “The Outlet.” We worked on designing this journal over the course of over a month and it was a difficult project, but one that helped us understand how a real design studio works, how to utilize several elements and principles of design, etc.</p>
+            <p>November 2023</p>
+        </div>
+        </div>
+        <div class="column">
+            <div class="content">
+            <h3>Love's Baking Company</h3>
+            <p>For this project, I was tasked with creating a brand around a baking company located out of Love, Texas. Thus, "Love's Baking Company," was founded, with its main charm being the love found within each item it produces. The finished product for the branding consists of its logotype, three types of flour packaging, menus for the bakery location, branded merchandise (aka "swag"), and an invoice, which are all catered to the main audience of home bakers, typically women, between the ages of 20-45 years old.</p>
+            <p>April 2024</p>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                <div class="numbertext">1 / 6</div>
+                <img src="images/baking/brand.jpg" alt="Brand for Bakery" style="width:100%">
+                <div class="text">Brand Logo</div>
+                </div>
+                
+                <div class="mySlides fade">
+                <div class="numbertext">2 / 6</div>
+                <img src="images/baking/flour-packages.png" alt="Flour Packaging for Bakery" style="width:100%">
+                <div class="text">Flour Packaging</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">3 / 6</div>
+                <img src="images/baking/menu.png" alt="Menu for Bakery" style="width:100%">
+                <div class="text">Menu for Bakery</div>
+                </div>
+                <div class="mySlides fade">
+                <div class="numbertext">4 / 6</div>
+                <img src="images/baking/apron.png" alt="Apron for Bakery" style="width:100%">
+                <div class="text">Merch: Apron</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">5 / 6</div>
+                <img src="images/baking/canvas-bag.png" alt="Bag for Bakery" style="width:100%">
+                <div class="text">Merch: Canvas Bag</div>
+                </div>
+            
+                <div class="mySlides fade">
+                <div class="numbertext">6 / 6</div>
+                <img src="images/baking/mug-mockup.png" alt="Mug for Bakery" style="width:100%">
+                <div class="text">Merch: Mug</div>
+                </div>
+                
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center2">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span> 
+                <span class="dot" onclick="currentSlide(6)"></span> 
+            </div>
+            </div>
+            <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1} 
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; 
+            }
+            for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block"; 
+            dots[slideIndex-1].className += " active";
+            }
+            </script>
+        </div>
+        <div class="column">
+            <div class="content">
+            <img src="images/night-routine.png" alt="Night Routine Drawing" style="width:100%">
+            <h3>"Night Routine"</h3>
+            <p>Still life drawing of vanity, portraying a night routine.</p>
+            <p>July 2023</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+            <img src="images/old-man.png" alt="Old Man Drawing" style="width:100%">
+            <h3>"Old Man" Drawing</h3>
+            <p>Simple line sketch of old man.</p>
+            <p>June 2023</p>
+            </div>
+        </div>
         <div class="content">
-        <img src="bear.jpg" alt="Bear" style="width:100%">
-        <h3>Some Other Work</h3>
-        <p>Lorem ipsum..</p>
+        <img src="images/leaving-the-red-room.jpg" alt="Jane Eyre Book cover" style="width:100%">
+        <h3>"Leaving the Red Room" Book Cover</h3>
+        <p>This was a design concept I had for a “Jane Eyre book cover” which was featured and published in the BYU-Idaho’s Art and Literary Journal “Outlet” in Fall 2023.</p>
         </div>
     </main>
     <footer>
