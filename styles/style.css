@@ -4,6 +4,12 @@
   border-radius: 50%;
   border: 1px solid #31583Dff;
 }
+p{
+  color: #31583Dff;
+}
+h3{
+  color: #DC1E2Cff;
+}
 #logo_link{
   padding-top: 5px; 
   justify-self: center;
@@ -40,10 +46,6 @@ nav a:hover{
   text-wrap: wrap;
   color: #31583Dff;
   padding: 11px; 
-}
-.resume{
-  width: 50%;
-  padding: 20px;
 }
 footer{
   font-family: Helvetica, Arial, sans-serif;
@@ -119,6 +121,7 @@ footer .social img{
   .main {
     max-width: 1000px;
     margin: auto;
+  
   }
   
   h1 {
@@ -133,7 +136,7 @@ footer .social img{
   /* Add padding BETWEEN each column (if you want) */
   .row,
   .row > .column {
-    padding: 8px;
+    padding: 10px;
   }
   
   /* Create four equal columns that floats next to each other */
@@ -153,6 +156,7 @@ footer .social img{
   .content {
     background-color: white;
     padding: 10px;
+      border: 1px solid #ccc;
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
@@ -255,65 +259,17 @@ footer .social img{
   from {opacity: .4} 
   to {opacity: 1}
 }
-/* for resume page Style inputs, select elements and textareas */
-input[type=text], select, textarea{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: vertical;
+.resume{
+  color: #31583Dff;
+  text-decoration: underline;
 }
-
-/* Style the label to display next to the inputs */
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
+.resume:hover{
+  background-color: #DC1E2Cff;
+  color: #FFFFFF;
 }
-
-/* Style the submit button */
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
-
-/* Style the container */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-/* Floating column for labels: 25% width */
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-/* Floating column for inputs: 75% width */
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
+#resumeimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
