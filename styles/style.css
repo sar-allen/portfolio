@@ -262,6 +262,8 @@ footer .social img{
 .resume{
   color: #31583Dff;
   text-decoration: underline;
+  font-size: 20px;
+  padding: 15px;
 }
 .resume:hover{
   background-color: #DC1E2Cff;
