@@ -53,7 +53,7 @@ footer{
   background-color: #D4F1E6ff;
   color: #31583Dff;
   padding: 25px 50px;
-  margin-top: 200px;
+  margin-top: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -277,4 +277,7 @@ footer .social img{
 }
 #foot{
   margin-top: 50px;
+}
+h2{
+  color: #DC1E2Cff
 }
